@@ -2,8 +2,8 @@
     export let y;
 
     let tabs = [
+        {name: 'Projects', link: '#projects'},
         {name: 'About Me', link: '#about'},
-        {name: 'Technical Projects', link: '#projects'},
     ];
     let linktabs = [
         {name: 'WFRecordings', link: '/WFRecordingsInfo'},

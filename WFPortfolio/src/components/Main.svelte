@@ -1,6 +1,7 @@
 <script>
     import Step from "./Step.svelte";
 
+
     let steps = [
         {name: 'Dayfarers', icon: 'assets/PDF_LOGO_White_Small.png', href: 'https://cosmic-engine.gitlab.io/'},
         {name: 'Chess Validation', icon: 'assets/Chess_rdt60.png', href: 'https://gitlab.com/WFaustin/chessvalidationprojectse576'},

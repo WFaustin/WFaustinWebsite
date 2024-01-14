@@ -10,10 +10,6 @@
     function goTop() {
         document.body.scrollIntoView(); 
     }
-
-    export const prerender = true;
-
-    export const trailingSlash = "always";
 </script>
 
 <div

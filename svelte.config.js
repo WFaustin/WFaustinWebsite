@@ -11,8 +11,8 @@ const config = {
 		
         paths: {
 
-            base: process.env.NODE_ENV === 'production' ? '/WFaustinWebsite/WFPortfolio/' : '',
-			base: process.env.NODE_ENV === 'dev' ? '/WFaustinWebsite/WFPortfolio/' : '',
+            base: process.env.NODE_ENV === 'production' ? '/WFaustinWebsite' : '',
+			base: process.env.NODE_ENV === 'dev' ? '/WFaustinWebsite' : '',
         }
 
 

@@ -2,15 +2,24 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Dayfarer', icon: 'assets/PDF_LOGO_White_Small.png'},
-        {name: 'Chess Validation', icon: 'assets/Chess_rdt60.png'},
-        {name: 'Toast', icon: 'assets/Group 399.png'} 
+        {name: 'Dayfarers', icon: 'assets/PDF_LOGO_White_Small.png', href: 'https://cosmic-engine.gitlab.io/'},
+        {name: 'Chess Validation', icon: 'assets/Chess_rdt60.png', href: 'https://gitlab.com/WFaustin/chessvalidationprojectse576'},
+        {name: 'Toast', icon: 'assets/Group 399.png', href: 'https://github.com/Salud-Team/SaludDevelopment'} 
     ];
 
     let benefits = [
-        {name: 'a motivated developer', description: 'template text needed to be filled in'},
-        {name: 'an creative soul', description: 'template text needed to be filled in'},
-        {name: 'a collaborative leader', description: 'template text needed to be filled in'}
+        {name: 'a motivated developer:', description: "With a Bachelor\'s and " +
+        "Master\'s degree in Computer Science, I have had the opportunity to work on some impressive" +
+        " and innovative projects. I love when opportunities to make cool stuff graces my doorstep," + 
+        " and I try to take any and every opportunity to learn something new in the space."},
+        {name: 'an creative soul:', description: 'Whether it comes to my career or my freetime, I love' +
+        ' being able to use my creativity to solve problems and create beautiful things. As a musician, I\'ve learned '
+        + 'that there rarely is just one way to get to the destination you want to arrive at, and that sort '
+        + ' of flexiblity has gotten me out of some difficult artist\'s block.'},
+        {name: 'a collaborative leader:', description: 'One thing that I\'ve learned so far in my career is how beneficial'
+        + ' it is to work with those with different skillsets and experiences. Being able to learn from others while also'
+        + ' displaying the expertise that you have gained makes working together both enriching and successful. In that way,'
+        + ' even if all of us aren\'t designated as a \'leader\' in every single project, we can all bring leadership in our own way.'}
     ];
 </script>
 <main class="flex flex-col flex-1 p-4">
@@ -42,7 +51,7 @@
         </div>
         <div class="grid justify-center grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Dayfarer was an award winning senior capstone project developed in 2021.
+                <p>Dayfarers was an award winning senior capstone project developed in 2021.
                  A turn-based RPG where the player has to use the time-travel mechanics against
                  adversaries to turn the tables and be victorious, Dayfarer was the most
                  ambitious group project of my academic career, both as a programmer and a composer. 

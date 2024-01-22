@@ -17,7 +17,7 @@
 + (y > 0 ? 'py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent')}
 >
     <h1 class="font medium">
-        <a href="{base}/" class='duration-299 hover:text-violet-400'>
+        <a href="{base}" class='duration-299 hover:text-violet-400'>
             <b class='font-bold poppins'>Widchard Faustin</b>
         </a>
     </h1>
@@ -32,7 +32,7 @@
         {#each linktabs as tab, index}
         <div class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white
         text-slate-950">
-        <a href="{base}/{tab.link}">
+        <a href="{base}{tab.link}">
             <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20
             group-hover:translate -x-full z-0 duration-200">
 

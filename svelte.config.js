@@ -12,8 +12,6 @@ const config = {
 		adapter: adapter(),
 		
         paths: {
-
-            base: process.env.NODE_ENV === 'production' ? '/WFaustinWebsite' : '',
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
         }
 

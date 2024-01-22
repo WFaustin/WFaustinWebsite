@@ -17,13 +17,13 @@
 + (y > 0 ? 'py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent')}
 >
     <h1 class="font medium">
-        <a href="{base}" class='duration-299 hover:text-violet-400'>
+        <a href="/" class='duration-299 hover:text-violet-400'>
             <b class='font-bold poppins'>Widchard Faustin</b>
         </a>
     </h1>
     <div data-sveltekit-preload-data="false" class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
-            <a href="{base}/{tab.link}" class="duration-299 hover:text-violet-400">
+            <a href="{base}{tab.link}" class="duration-299 hover:text-violet-400">
                 <p>{tab.name}</p>
             </a>
         {/each}

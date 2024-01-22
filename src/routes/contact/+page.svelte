@@ -19,17 +19,32 @@
         <br/>
         <h3 class="font-semi-bold text-3xl sm:text-4xl md:text-5xl">
             Here's Some Ways To <span class="text-violet-400">Get In Touch</span> With Me.
+            <br/>
         </h3>
     </div>
+</section>
+<section class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="grid justify-center grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
         <Step step={steps[0]}>
             <p>
                 For those who'd like to connect with me on <strong class='text-violet-400'>Linkedin</strong>.
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </p>
         </Step>
         <Step step={steps[1]}>
             <p>
                 For those who'd like to check out some of my projects on <strong class='text-violet-400'>Github</strong>.
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </p>
         </Step>
         <FormStep step={steps[2]}>

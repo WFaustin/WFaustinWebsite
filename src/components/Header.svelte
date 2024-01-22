@@ -7,7 +7,7 @@
         {name: 'About Me', link: '/#about'},
     ];
     let linktabs = [
-        {name: 'WFRecordings', link: '/WFRecordingsInfo'},
+        {name: 'WFRecordings', link: '/wfrecords'},
         {name: 'Contact', link: '/contact'}
     ]
     let finaltab = {name: 'Contact', link: '/contact'};

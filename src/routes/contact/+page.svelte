@@ -17,6 +17,12 @@
             <span class="text-violet-400">Contact Me</span>
         </h2>
         <br/>
+        <br/>
+        <br/>
+    </div>
+</section>
+<section class="py-20 lg:py-32 flex flex-col gap-24">
+    <div class="flex flex-col gap-2 text-center">
         <h3 class="font-semi-bold text-3xl sm:text-4xl md:text-5xl">
             Here's Some Ways To <span class="text-violet-400">Get In Touch</span> With Me.
             <br/>

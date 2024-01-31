@@ -12,6 +12,7 @@ cursor-pointer hover:border-violet-400 duration-200">
 
     </div>
     <h3 class="font-medium text-xl sm:text-xl md:text-2xl">{step.name}</h3>
+    <br/>
     <slot/>
     <div class="flex-1 flex justify-between gap-4 items-center">
         <div class="ml-auto cursor-pointer hover:text-slate-950 duration-200

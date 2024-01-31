@@ -40,11 +40,15 @@
                 <br/>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
             </p>
         </Step>
         <Step step={steps[1]}>
             <p>
                 For those who'd like to check out some of my projects on <strong class='text-violet-400'>Github</strong>.
+                <br/>
+                <br/>
                 <br/>
                 <br/>
                 <br/>

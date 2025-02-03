@@ -4,7 +4,7 @@
 
 <a
   download="WFaustinResume"
-  href="https://gitlab.com/WFaustin/ResumeVersions/-/raw/main/Widchard%20Faustin%20Resume.pdf?ref_type=heads&inline=false"
+  href="https://gitlab.com/WFaustin/ResumeVersions/-/raw/main/WidchardFaustin%20Resume.pdf?ref_type=heads&inline=false"
   target="_blank"
   class="p-4 sm:p-6 md:p-8 flex flex-col
 gap-4 rounded-lg border border-solid border-violet-700 text-center group
